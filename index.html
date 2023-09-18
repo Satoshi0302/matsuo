@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>株式会社マツオ</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="#"><img src="images/logo.png" alt="株式会社マツオ"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">なぜやるのか</a></li>
+          <li><a href="#">非営利事業</a></li>
+          <li><a href="#">事業紹介</a></li>
+          <li><a href="#">パートナー</a></li>
+          <li><a href="#">ウェルモについて</a></li>
+          <li><a href="#">ニュース</a></li>
+          <li><a href="#">採用</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="sp_menu">
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <main>
+      <div class="maintoparea">
+        <h2><img src="images/catchphrase_pc.svg" alt="LIGHT FOR ALL"></h2>
+        <h2><img src="images/catchphrase_sp.svg" alt="LIGHT FOR ALL"></h2>
+        <div class="mainvisualarea">
+          <picture>
+            <img src="images/mainvisual.jpg" alt="">
+          </picture>
+        </div>
+        <!--mainvisualarea End-->
+      </div>
+      <!--maintoparea End-->
+
+      <section class="homeabout">
+        <div class="homeabout_left">
+          <img src="images/homeimg.png" alt="">
+        </div>
+        <div class="homeabout_right">
+          <h2>あたりまえの幸せを、<br>すべての人へ</h2>
+          <p>資本主義における自由市場などの現在の経済システム。このシステムによって私たちは大きな享受を得、生活は豊かになりました。<br>
+            <br>
+            しかし、同時に限界を感じています。温かさ、優しさ、思いやり、有り難み。物質的に豊かになっていく中で、心の豊かさが失われつつあるように思います。<br>
+            <br>
+            わたしたちはポスト資本主義社会を目指し、この限界に挑みます。その先にある、あたりまえの幸せがすべての人に届く、社会のために。 </p>
+            <p class="btn"><a href="#">詳しく見る</a></p>
+        </div>
+      </section>
+      <!--homeabout End-->
+
+      <section class="careers">
+        <div class="careers_left">
+          <h2>Careers</h2>
+          <p>自らが熱量をもって活動し、人々に対しても心地よい温度感で、誰に対しても愛を持って平等に接する。失敗を恐れずに、圧倒的な速度と行動力で、本質的かつ誠実な挑戦を楽しめる。そんなメンバーをウェルモは求めています。</p>
+        </div>
+        <div class="careers_right">
+          <p class="btn"><a href="#">詳しく見る</a></p>
+      </div>
+      </section>
+      <!--careers End-->
+
+      <section class="specialtalk">
+        <h2>Special talk</h2>
+        <ul>
+          <li><img src="images/photo_setoyama.jpg" alt=""></li>
+          <li><img src="images/photo_matsuo.jpg" alt=""></li>
+        </ul>
+        <p class="specialtalk_text">市場経済と社会課題解決、利己と利他、現場と俯瞰のバランスをとる。代表取締役会長兼社長の瀬戸山、役員の松尾が語る、マツオがつくりたい未来のために必要なこと、求める仲間。</p>
+      </section>
+      <!--specialtalk End-->
+
+      <section class="partners">
+        <h2>Partners</h2>
+        <ul>
+          <li><img src="images/partner1.png" alt="femto"></li>
+          <li><img src="images/partner2.png" alt="東京電力パワーグリッド"></li>
+          <li><img src="images/partner3.png" alt="Aflac"></li>
+          <li><img src="images/partner4.png" alt="東京IPC"></li>
+          <li><img src="images/partner5.png" alt="DOGANG"></li>
+          <li><img src="images/partner6.png" alt="Z VENTURW CAPITAL"></li>
+          <li><img src="images/partner7.png" alt="あいおいニッセイ同和損保"></li>
+          <li><img src="images/partner8.png" alt="KONIKA MINOLTA"></li>
+          <li><img src="images/partner9.png" alt="DG Venture"></li>
+          <li><img src="images/partner10.png" alt="東京海上日動"></li>
+          <li><img src="images/partner11.png" alt="TOPPAN"></li>
+          <li><img src="images/partner12.png" alt="第一生命"></li>
+        </ul>
+      </section>
+      <!--partners End-->
+
+    </main>
+
+  <footer>
+    <h1><a href="#"><img src="images/logo.png" alt="株式会社マツオ"></a></h1>
+    <ul>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+      <li><a href="#">匿名加工情報について</a></li>
+      <li><a href="#">情報セキュリティ方針</a></li>
+    </ul>
+    <small>© 2023 Matsuo Inc.</small>
+  </footer>
+  <script>
+    $(".sp_menu").click(function(){
+      $(this).toggleClass("active");
+      $("nav").toggleClass("active");
+      $("html").toggleClass("active");
+    });
+  </script>
+  </body>
+
+</html>
